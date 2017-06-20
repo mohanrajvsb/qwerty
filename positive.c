@@ -5,10 +5,19 @@
 void main()
 {
     int num;
-    printf("Enter an integer: ");
+    printf("Enter any number: ");
     scanf("%d", &num);
-       if(number % 2 == 0)
-        printf("%d is even.", num);
+     if(num > 0)
+    {
+        printf("Number is+VE");
+    }
+    else if(num < 0)
+    {
+        printf("Number is -VE");
+    }
     else
-        printf("%d is odd.", num);
-   }
+    {
+        printf("Number is 0");
+    }
+ 
+ } 
